@@ -1,0 +1,27 @@
+//Suma de Números
+//Pide al usuario números hasta que ingrese 0. Luego, muestra la suma de todos los números ingresados.
+
+#include <iostream>
+using namespace std;
+
+int main(){
+int n;
+int suma = 0;
+
+cout << "si desea terminar ingrese 0" << endl;
+cout << "ingrese un numero" << endl;
+
+do{
+    cin >> n;
+    suma = suma + n;
+
+
+}while (n != 0);
+
+cout << "La respues es:" << suma << endl;
+
+
+
+
+    return 0;
+}
